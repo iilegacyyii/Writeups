@@ -9,8 +9,8 @@ If your function works properly, then when you feed it the string:
 `746865206b696420646f6e277420706c6179`
 
 # Solution
-For this challenge I simply created a function that takes to byte arrays and a given length. It then performs a bitwise xor on each corresponding 
-element of the two arrays and stores the output in another array to be returned and pretty printed to the user.
+For this challenge I simply created a function that takes two byte arrays (b1, b2) and a given length (n). It then performs a bitwise xor on each corresponding 
+element of the two arrays and stores the output in another array (res) to be returned and pretty printed to the user.
 ```go
 package main
 
