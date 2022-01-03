@@ -38,7 +38,7 @@ pog
 </root>
 ```
 
-![[tetctf-2022-2x-service-initial-poc.png]]
+![](img/tetctf-2022-2x-service-initial-poc.png)
 
 The main issue here, is the `ElementInclude.include(root)` line, this processes XInclude elements, and if we recreate this locally, we can get LFI via the following payload (I have disabled the "text" WAF)
 ```xml
